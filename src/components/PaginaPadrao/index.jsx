@@ -9,13 +9,13 @@ const PaginaPadrao = () => {
   return (
     <>
     <Header />
+    <Footer/>
     </>
     // <div>
     //   <Navbar/>
     //   <Header/>
     //   <h1>Página padrão</h1>
     //   <Outlet />
-    //   <Footer/>
     // </div>
   );
 }

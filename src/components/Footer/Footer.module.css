@@ -1,0 +1,26 @@
+.icones{
+    display: flex;
+    align-items: center;
+     gap: 5%;
+}
+
+.containerFooter{
+    background-color: #010203;
+   padding: 1.5%;
+    display: flex;
+     justify-content: space-between;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    gap: 5%
+}
+
+.copyright p {
+    color: aliceblue;
+}
+
+.footerImg{
+    height: 50px;
+}
