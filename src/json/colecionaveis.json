@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Yuri Seijin Naoko-san & Misuzu",
-        "descricao": "Yuri Seijin Naoko-san é um manga escrito e ilustrado pela autor de mangas chamado Kashmir, o manga virou um anime de 6 minutos lançado no final de 2010 seguidos de um outro de 30 minutos que foi ao ar no início de 2012.",
+        "descricao": "Yuri Seijin Naoko-san é um manga escrito e ilustrado pela autor de mangas chamado Kashmir.",
         "valor": 499.90,
         "imagemUrl": "/assets/animes/anime-1.png",
         "categoriaId": 1
@@ -10,23 +10,23 @@
     {
         "id": 2,
         "titulo": "Yukio Okumura Ichiban Kuji B Ao no Blue Exorcist Banpresto",
-        "descricao": "Ao no Exorcist, também conhecido no ocidente como Blue Exorcist, é uma série de manga publicada desde 2009 e também recebeu uma adaptação em anime com 25 episódios em 2011.",
+        "descricao": "Ao no Exorcist, também conhecido no ocidente como Blue Exorcist, é uma série de manga publicada desde 2009.",
         "valor": 219.90,
         "imagemUrl": "/assets/animes/anime-2.png",
         "categoriaId": 1
     },
     {
         "id": 3,
-        "titulo": "Vegeta Dragon Stars Series Dragon Ball Super Bandai",
-        "descricao": "Dragon Ball é possivelmente o anime mais conhecido de todos os tempos, uma criação incrível de Akira Toriyama que começou com um mangá, criou notoriedade e fama mundial com o anime nos anos 90, invadiu o mundo dos games, RPGs e cosplay e, como não podia deixar de ser, dos colecionáveis.",
+        "titulo": "Dragon Stars Series Dragon Ball Super Bandai",
+        "descricao": "Dragon Ball é possivelmente o anime mais conhecido de todos os tempos, uma criação de Akira Toriyama que começou com um mangá.",
         "valor": 274.10,
         "imagemUrl": "/assets/animes/anime-3.png",
         "categoriaId": 1
     },
     {
         "id": 4,
-        "titulo": "Shoto Todoroki DXF Boku no Hero My Hero Academia Banpresto",
-        "descricao": "Em um mundo onde quase toda a população possui algum poder sobre-humano, o garoto Izuku Midoriya é um dos poucos casos de pessoas comuns. Pelo mesmo motivo ele sofre constantemente nas mãos de seus colegas de classe.",
+        "titulo": "Shoto Todoroki DXF Boku",
+        "descricao": "Em um mundo onde quase toda a população possui algum poder sobre-humano, o garoto Izuku Midoriya é um dos poucos casos de pessoas comuns.",
         "valor": 320.90,
         "imagemUrl": "/assets/animes/anime-4.png",
         "categoriaId": 1

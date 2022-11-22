@@ -1,7 +1,12 @@
 .posts{
-    background-color: #2a292f;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+    margin: 1rem;
+}
+
+.categoriaInvalida{
+    text-align: center;
+    margin: 6rem;
 }
