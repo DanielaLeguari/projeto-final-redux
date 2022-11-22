@@ -1,0 +1,20 @@
+.post {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    padding-bottom: 0.5rem;
+    transition: transform 0.2s;
+    background-color: #2a292f ;
+    align-items: center;
+padding-top: 5%;
+padding-bottom: 5%;
+  }
+
+
+  .capa {
+    height: 200px;
+    width: 100%;
+    border-radius: 6px;
+  }

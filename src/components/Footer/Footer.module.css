@@ -6,9 +6,15 @@
 
 .containerFooter{
     background-color: #010203;
+    padding-right: 2%;
    padding: 1.5%;
     display: flex;
      justify-content: space-between;
+     width: 97%;
+     margin: auto;
+     /* position: absolute; */
+     bottom: 0;
+
 }
 
 .copyright{

@@ -1,0 +1,35 @@
+.banner {
+    padding: 2rem 7.5rem 3.65rem;
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+  }
+  
+  .paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .imagens {
+    position: relative;
+    height: 440px;
+  }
+  
+  .imagens > .minhaFoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 20px;
+  }

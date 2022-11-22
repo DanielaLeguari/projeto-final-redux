@@ -4,19 +4,17 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Header from '../Header';
 import Footer from '../Footer';
+import Banner from '../Banner';
+import Home from 'pages/Home';
 
 const PaginaPadrao = () => {
   return (
-    <>
-    <Header />
-    <Footer/>
-    </>
-    // <div>
-    //   <Navbar/>
-    //   <Header/>
-    //   <h1>Página padrão</h1>
-    //   <Outlet />
-    // </div>
+    <div>
+      <Header/>
+      <Banner />
+      <Home />
+    <Footer/> 
+    </div>
   );
 }
 

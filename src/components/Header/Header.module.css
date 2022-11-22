@@ -1,26 +1,19 @@
 .containerHeader {
   background-color: #010203;
-   display: flex;
- gap: 1%;
- padding: 1.5% 1.5% 1.5% 1.5%;
- align-items: center;
+  display: flex;
+  gap: 1%;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  align-items: center;
 }
 
-.nav{
+.nav {
   width: 70%;
-   display: flex;
-   gap: 4%;
+  display: flex;
+  gap: 4%;
   justify-content: space-around;
   align-items: center;
 }
 
-.link {
-
-  
-
-}
 img {
   height: 110px;
 }
-
-
