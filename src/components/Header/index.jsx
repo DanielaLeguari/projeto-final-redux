@@ -23,7 +23,6 @@ const Header = () => {
        <Busca />
        <AiOutlineShoppingCart size={'3.4rem'} color={'white'} to='/carrinho' />
     </div>
-
   );
 }
 

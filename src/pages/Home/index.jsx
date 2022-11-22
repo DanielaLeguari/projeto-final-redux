@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './Home.module.css';
 import categorias from '../../json/categoria.json';
 import { Link } from 'react-router-dom';
+import Header from 'components/Header';
+import Banner from 'components/Banner';
+import Footer from 'components/Footer';
 
 const linkStyle = {
   textDecoration: "none",
@@ -11,6 +14,9 @@ const linkStyle = {
 }
 const Home = () => {
   return (
+    <>    
+    <Header />
+    <Banner />
       <div className={styles.post}>
           {categorias.map((categoria) => {
         return <Link style={linkStyle}to={`/categoria/${categoria.id}`}>
@@ -19,6 +25,9 @@ const Home = () => {
         </Link>
       })}
       </div>
+      <Footer />
+    </>
+
     
   );
 }

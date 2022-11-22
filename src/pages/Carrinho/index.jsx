@@ -1,14 +1,16 @@
 import React from 'react';
-import styles from './Home.module.css';
-import categorias from '../../json/categoria.json';
-import { Link } from 'react-router-dom';
+import styles from './Carrinho.module.css';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
 
-const Home = () => {
+const Carrinho = () => {
   return (
  <>
+ <Header />
+ <Footer />
  </>
   )
 }
 
-export default Home;
+export default Carrinho;
