@@ -3,9 +3,15 @@ import styles from './Busca.module.css'
 
 const Busca = () => {
   return (
-    <div>
-      
+    <div className={styles.busca}>
+ <input 
+            className={styles.input} 
+            placeholder='O que você procura?'
+            />   
+
     </div>
+
+     
   );
 }
 

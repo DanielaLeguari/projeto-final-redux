@@ -7,13 +7,16 @@ import Footer from '../Footer';
 
 const PaginaPadrao = () => {
   return (
-    <div>
-      <Navbar/>
-      <Header/>
-      <h1>Página padrão</h1>
-      <Outlet />
-      <Footer/>
-    </div>
+    <>
+    <Header />
+    </>
+    // <div>
+    //   <Navbar/>
+    //   <Header/>
+    //   <h1>Página padrão</h1>
+    //   <Outlet />
+    //   <Footer/>
+    // </div>
   );
 }
 
