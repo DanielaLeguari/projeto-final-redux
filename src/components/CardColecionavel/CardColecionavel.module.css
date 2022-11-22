@@ -1,0 +1,40 @@
+.item {
+    border-radius: 10px;
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.5rem;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.descricao {
+    font-size: 14px;
+}
+.containerDetalhes{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.containerPreco {
+    background-color: grey;
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+
+.valor {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}

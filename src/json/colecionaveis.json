@@ -45,7 +45,7 @@
         "titulo": "Boneco Articulado Alien Warrior 1986",
         "descricao": "Boneco Articulado Alien Warrior 1986 Blue Ultimate - NECA",
         "valor": 369.90,
-        "imagemUrl": "/assets/animes/filme-2.png",
+        "imagemUrl": "/assets/filmes/filme-2.png",
         "categoriaId": 2
 
     }
@@ -55,7 +55,7 @@
         "titulo": "Jessica Rabbit Reaction Figures Wave 1 ",
         "descricao": "Jessica Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7",
         "valor": 179.90,
-        "imagemUrl": "/assets/animes/filme-3.png",
+        "imagemUrl": "/assets/filmes/filme-3.png",
         "categoriaId": 2
 
     }
@@ -65,7 +65,7 @@
         "titulo": "Roger Rabbit Reaction Figures Wave 1 ",
         "descricao": "Roger Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7.",
         "valor": 179.90,
-        "imagemUrl": "/assets/animes/anime-4.png",
+        "imagemUrl": "/assets/filmes/filme-4.png",
         "categoriaId": 2
 
     }

@@ -4,15 +4,16 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Categoria from './pages/Categoria';
 import Carrinho from 'pages/Carrinho';
+import PaginaErro from 'pages/PaginaErro';
 
 export const Router = () => {
   return (
     <BrowserRouter>
-    <Routes> 
+    <Routes>
        <Route path='/' element={<Home />} />
-       <Route path='/carrinho' element={<Carrinho />} />
       <Route path='/categoria/:categoriaId' element={<Categoria />} />
-      {/* <Route path='*' element={<PaginaErro/>} /> */}
+      <Route path='/carrinho' element={<Carrinho />} />
+      <Route path="*" element={<PaginaErro/>} />
     </Routes>
   </BrowserRouter>
   );
