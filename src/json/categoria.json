@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "categoria" : "Anime",
+        "imagemUrl": "/assets/categorias/categoria-anime.png"
+    },
+    {
+        "id" : 2,
+        "categoria" : "Filmes",
+        "imagemUrl": "/assets/categorias/categoria-filmes.png"
+    },
+    {
+        "id" : 3,
+        "categoria" : "Super-herois",
+        "imagemUrl": "/assets/categorias/categoria-super-herois.png"
+    },
+    {
+        "id" : 4,
+        "categoria" : "Seriados",
+        "imagemUrl": "/assets/categorias/categoria-seriados.png"
+    } ,
+    {
+        "id" : 5,
+        "categoria" : "Desenho",
+        "imagemUrl": "/assets/categorias/categoria-desenho.png"
+    }
+]
