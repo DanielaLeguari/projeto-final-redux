@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const linkStyle = {
   textDecoration: "none",
-  color: 'white',
+  color: 'black',
   fontSize: '10px',
   cursor: 'pointer',
 }
@@ -14,8 +14,8 @@ const Home = () => {
       <div className={styles.post}>
           {categorias.map((categoria) => {
         return <Link style={linkStyle}to={`/categoria/${categoria.id}`}>
+               <h1 className={styles.titulo}>{categoria.categoria}</h1>
           <img className={styles.capa} src={categoria.imagemUrl} alt="categoria" height="100px" />
-          <h1>{categoria.categoria}</h1>
         </Link>
       })}
       </div>

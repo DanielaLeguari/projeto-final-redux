@@ -3,6 +3,7 @@
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color:  #2a292f;
   }
   
   .titulo {
@@ -10,26 +11,45 @@
     font-size: 4rem;
     margin-top: 4.875rem;
     margin-bottom: 2rem;
+   margin-left: 27%;
   }
   
   .paragrafo {
-    font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 2rem;
-    margin-right: 2rem;
+    margin-left: 29%;
+    color: white;
   }
   
   .imagens {
     position: relative;
     height: 440px;
+    text-align: center;
   }
   
   .imagens > .minhaFoto {
+    text-align: center;
     position: absolute;
     right: 0;
     bottom: 0;
     height: 50vh;
     width: 40vw;
     border-radius: 20px;
+  }
+
+  .categoria{
+    align-content: center;
+  display: flex;
+    width: 40%;
+    height: 5px;
+    margin-top: 5%;
+    margin-left: 36%;
+    background-color: #007ceb;
+  }
+
+  .categoriasTitle{
+    margin-left: 46%;
+    margin-top: 5%;
+    height: 20px;
   }

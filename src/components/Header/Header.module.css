@@ -2,18 +2,19 @@
   background-color: #010203;
   display: flex;
   gap: 1%;
-  padding: 1.5% 1.5% 1.5% 1.5%;
+  padding-bottom: 3%;
+  padding-right: 8%;
+  padding-top: 3%;
+ padding-left: 2%;
   align-items: center;
 }
-
 .nav {
   width: 70%;
   display: flex;
-  gap: 4%;
   justify-content: space-around;
   align-items: center;
 }
 
 img {
-  height: 110px;
+  height: 90px;
 }

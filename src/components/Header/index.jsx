@@ -8,7 +8,7 @@ import { buildQueries } from '@testing-library/react';
 
 const linkStyle = {
   textDecoration: "none",
-  color: '#007ceb',
+  color: 'white',
   fontSize: '20px',
   cursor: 'pointer',
 }
@@ -21,7 +21,7 @@ const Header = () => {
       <Link style={linkStyle} to="/home">Página Inicial</Link>
     </div>
        <Busca />
-       <AiOutlineShoppingCart size={'3.5rem'} color={'white'} to='/carrinho' />
+       <AiOutlineShoppingCart size={'3.4rem'} color={'white'} to='/carrinho' />
     </div>
 
   );
