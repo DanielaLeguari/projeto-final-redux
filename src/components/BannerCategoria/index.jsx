@@ -2,15 +2,13 @@ import React from 'react';
 import styles from './BannerCategoria.module.css'
 import categorias from '../../json/categoria.json';
 
-const BannerCategoria = () => {
-  return (
-    <div>
-        {categorias.map((categoria) => {
-        return <img className={styles.capa} src={categoria.imagemUrl} alt="categoria" height="100px" />
-        })}
-    
-    </div>
-  );
+const BannerCategoria = ({id, categoria, imagemUrl}) => {
+    return (
+        <div className={styles.containerBannerCategoria}>
+           <p>{categoria}</p>
+           <img src={imagemUrl} alt="" />
+        </div>
+    );
 }
 
 export default BannerCategoria;
