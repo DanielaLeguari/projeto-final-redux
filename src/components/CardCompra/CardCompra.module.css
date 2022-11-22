@@ -1,56 +1,86 @@
-.banner {
-    padding: 2rem 7.5rem 3.65rem;
-    color: var(--branco);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:  #2a292f;
-    height: 3055px;
-  }
-  
-  .titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 4rem;
-    margin-top: 4.875rem;
-    margin-bottom: 2rem;
-   margin-left: 10%;
-  }
-  
-  .paragrafo {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 45%;
-    color: white;
-  }
-  
-  .imagens {
-    position: relative;
-    height: 440px;
-    text-align: center;
-  }
-  
-  .imagens > .minhaFoto {
-    text-align: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 50vh;
-    width: 40vw;
-    border-radius: 20px;
-  }
+.CardCompra {
+  color: var(--branco);
+  height: 200px;
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-left: 25%;
+  padding-bottom: 10%;
+}
 
-  .categoria{
-    align-content: center;
+.resumo {
+  border-radius: 15px;
+  background-color: #2a292f;
+  height: 180px;
+  padding: 1rem;
+  width: 80%;
+  font-family: var(--fonte-secundaria);
   display: flex;
-    width: 40%;
-    height: 5px;
-    margin-top: 5%;
-    margin-left: 36%;
-    background-color: #007ceb;
-  }
+  gap: 4%;
+}
 
-  .categoriasTitle{
-    margin-left: 46%;
-    margin-top: 5%;
-    height: 20px;
-  }
+.imgCard {
+  border-radius: 15px;
+  margin-top: 10%;
+  height: 150px;
+}
+
+.descricaoCard {
+  color: white;
+  margin-top: 3%;
+}
+
+.valor {
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-weight: 800;
+}
+
+.barraResumo {
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 33%;
+  border-radius: 20px;
+  background-color: #2a292f;
+  display: flex;
+  gap: 10%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  color: white;
+  font-weight: 800;
+  justify-content: space-around;
+}
+
+.finalizaCompra {
+  margin-left: 68%;
+  background-color: #007ceb;
+  border: none;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  padding: 0.7rem;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+
+.nome {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.descricao {
+  color: lightgray;
+  font-size: 15px;
+  font-weight: 500;
+}

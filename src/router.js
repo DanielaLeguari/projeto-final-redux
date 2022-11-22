@@ -10,6 +10,7 @@ export const Router = () => {
     <BrowserRouter>
     <Routes> 
        <Route path='/' element={<Home />} />
+       <Route path='/carrinho' element={<Carrinho />} />
       <Route path='/categoria/:categoriaId' element={<Categoria />} />
       {/* <Route path='*' element={<PaginaErro/>} /> */}
     </Routes>

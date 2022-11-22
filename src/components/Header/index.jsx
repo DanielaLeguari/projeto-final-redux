@@ -21,7 +21,9 @@ const Header = () => {
       <Link style={linkStyle} to="/home">Página Inicial</Link>
     </div>
        <Busca />
+       <Link to='/carrinho'>
        <AiOutlineShoppingCart size={'3.4rem'} color={'white'} to='/carrinho' />
+       </Link>
     </div>
   );
 }

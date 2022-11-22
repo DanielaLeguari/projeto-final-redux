@@ -2,6 +2,7 @@ import styles from './Banner.module.css';
 import compra from '../../assets/compra.svg'
 import categorias from '../../assets/categorias.svg';
 
+
 const BannerCarrinho = () => {
     return(
         <>
@@ -13,9 +14,6 @@ const BannerCarrinho = () => {
                     src={compra}
                     />
                 </h1>
-                <p className={styles.paragrafo}>
-               Finalizando sua compra
-                </p>
             </div>
         </div>
         </>
