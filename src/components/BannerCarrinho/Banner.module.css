@@ -1,0 +1,25 @@
+.banner {
+    padding: 2rem 7.5rem 3.65rem;
+    background-color:  #2a292f;
+    height: 155px;
+  }
+  
+  .apresentacao{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo {
+    display:  flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+
+  

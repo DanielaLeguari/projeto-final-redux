@@ -1,35 +1,51 @@
+
+.apresentacao {
+  display:  flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+}
 .banner {
-    padding: 2rem 7.5rem 3.65rem;
-    color: var(--branco);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 4rem;
-    margin-top: 4.875rem;
-    margin-bottom: 2rem;
-  }
-  
-  .paragrafo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-  }
-  
-  .imagens {
-    position: relative;
-    height: 440px;
-  }
-  
-  .imagens > .minhaFoto {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 50vh;
-    width: 40vw;
-    border-radius: 20px;
-  }
+  /* padding: 2rem 7.5rem 3.65rem; */
+  color: var(--branco);
+  background-color: #2a292f;
+  text-align: center;
+  width: 100%;
+
+}
+
+.paragrafo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.categoria {
+  display: flex;
+  width: 40%;
+  height: 5px;
+  margin-top: 5%;
+  background-color: #007ceb;
+
+}
+
+.categoriasTitle {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 20px;
+}
+.minhaFoto{
+   justify-content: center;
+}
+hr{
+
+  width: 60%;
+  margin: 0 auto;
+}

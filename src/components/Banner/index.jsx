@@ -1,26 +1,24 @@
 import styles from './Banner.module.css';
-import fotoBanner from '../../assets/banner.png'
+import fotoBanner from '../../assets/banner.svg'
+import categorias from '../../assets/categorias.svg';
 const Banner = () => {
-    return(
+    return (
         <>
-        <div className={styles.banner}>
-            <div className={styles.apresentacao}>
-                <h1 className={styles.titulo}>
-                Colecionáveis!
-                </h1>
-                <p className={styles.paragrafo}>
-               Conheça a nossa sessão de itens colecionáveis!!!
-                </p>
-            </div>
+            <div className={styles.banner}>
+                <div className={styles.apresentacao}>
+                    <h1>Colecionáveis</h1>
 
-            <div className={styles.imagens}>
-                <img
-                    className={styles.minhaFoto}
-                    src={fotoBanner}
-                    alt="Rhaenyra Targaryen"
+                    <p className={styles.paragrafo}>
+                        Conheça a nossa sessão de itens colecionáveis!!!
+                    </p>
+                    <hr />
+                    <div></div>
+                    <img
+                        className={styles.categoriasTitle}
+                        src={categorias}
                     />
+                </div>
             </div>
-        </div>
         </>
     );
 }

@@ -8,7 +8,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 
 const linkStyle = {
   textDecoration: "none",
-  color: '#007ceb',
+  color: 'white',
   fontSize: '20px',
   cursor: 'pointer',
 }
@@ -21,9 +21,10 @@ const Header = () => {
       <Link style={linkStyle} to="/">Página Inicial</Link>
     </div>
        <Busca />
-       <AiOutlineShoppingCart size={'3.5rem'} color={'white'} to='/carrinho' />
+       <Link to='/carrinho'>
+       <AiOutlineShoppingCart size={'3.4rem'} color={'white'} to='/carrinho' />
+       </Link>
     </div>
-
   );
 }
 
