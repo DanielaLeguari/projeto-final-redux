@@ -40,13 +40,13 @@
 ## Página Categorias
 
 
-![](./imagens/categorias.png)
+![](./imagens/pagina-categoria.png)
 
 
 ## Página Carrinho de Compras
 
 
-![](./imagens/carrinho.png)
+![](./imagens/pagina-carrinho.png)
 
 
 ## Página de Erro
