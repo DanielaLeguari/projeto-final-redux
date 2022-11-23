@@ -12,24 +12,26 @@ const Categoria = () => {
     const { categoria, itens } = useSelector(state => {
         const regexp = new RegExp(state.busca, 'i');
         return {
-          categoria: state.categorias.find(categoria => categoria.id === categoriaId),
-          itens: state.itens.filter(item => item.categoria === categoriaId && item.titulo.match(regexp))
+            categoria: state.categorias.find(categoria => categoria.id === categoriaId),
+            itens: state.itens.filter(item => item.categoria === categoriaId && item.titulo.match(regexp))
         }
-      });
+    });
 
     return (
         <>
             <Header />
-        
+
             {categoria === undefined ?
                 <h1 className={styles.categoriaInvalida}>Categoria inválida</h1>
                 :
                 <>
                     <BannerCategoria {...categoria} />
-                    <div className={styles.posts}>
-                        {itens.map(item => {
-                            return <CardColecionavel {...item} /> //espalhando direto
-                        })}
+                    <div className={styles.categoria}>
+                        <div className={styles.posts}>
+                            {itens.map(item => {
+                                return <CardColecionavel {...item} />
+                            })}
+                        </div>
                     </div>
                 </>
             }

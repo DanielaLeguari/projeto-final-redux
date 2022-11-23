@@ -1,8 +1,12 @@
 .containerBannerCategoria{
     display: flex;
     align-items: center;
-     justify-content:space-evenly;
-     background-color: #2a292f;
+    height: 60vh;
+    justify-content:center; 
+    gap: 5rem;
+    background-image: url('../../assets/banner-categoria.png');
+    
+     
 }
 .containerBannerCategoria img{
  height: 250px;
@@ -16,3 +20,22 @@
     font-weight: 700;
     color: white;
 }
+
+.post{
+    transition: transform .2s;
+   
+}
+
+.post:hover {
+    transform: translate(0, -2rem);
+}
+
+.imagem{
+    border-radius: 6px;
+
+}
+
+.titulo{
+    text-transform: uppercase;
+}
+

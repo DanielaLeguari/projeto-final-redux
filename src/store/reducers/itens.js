@@ -75,7 +75,7 @@ const initialState = [{
   descricao: 'Jessica Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7',
   foto: filmeTres,
   favorito: false,
-  preco: 2900,
+  preco: 290,
   id: uuid(),
   categoria: 'filmes'
 }, {
@@ -83,7 +83,7 @@ const initialState = [{
   descricao: 'Roger Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7.',
   foto: filmeQuadro,
   favorito: false,
-  preco: 1200.99,
+  preco: 120.99,
   id: uuid(),
   categoria: 'filmes'
 }, {
@@ -91,7 +91,7 @@ const initialState = [{
   descricao: 'Boneco Articulado Man-Bat Megafis DC Rebirth - DC Multiverse - Mcfarlane Toys',
   foto: heroisUm,
   favorito: false,
-  preco: 5299.90,
+  preco: 599.90,
   id: uuid(),
   categoria: 'super herois'
 }, {
@@ -99,7 +99,7 @@ const initialState = [{
   descricao: 'Boneco Articulado Batman Arkham City - DC Multiverse - Mcfarlane Toys ',
   foto: heroisDois,
   favorito: false,
-  preco: 3569.99,
+  preco: 369.99,
   id: uuid(),
   categoria: 'super herois'
 }, {
@@ -107,7 +107,7 @@ const initialState = [{
   descricao: 'Eternal Clan Dragon Series 8 Mcfarlane Toys',
   foto: heroisTres,
   favorito: false,
-  preco: 2279.75,
+  preco: 279.75,
   id: uuid(),
   categoria: 'super herois'
 }, {
@@ -115,7 +115,7 @@ const initialState = [{
   descricao: 'Estátua Wonder Woman Mulher-Maravilha ArtFX 1/6 1984 Movie Kotobukiya',
   foto: heroisQuatro,
   favorito: false,
-  preco: 1049.90,
+  preco: 149.90,
   id: uuid(),
   categoria: 'super herois'
 },  {
@@ -123,7 +123,7 @@ const initialState = [{
   descricao: 'Shane Walsh TV Series Série 2 Walking Dead Mcfarlan',
   foto: seriadoUm,
   favorito: false,
-  preco: 4285.56,
+  preco: 285.56,
   id: uuid(),
   categoria: 'seriados'
 }, {
@@ -131,7 +131,7 @@ const initialState = [{
   descricao: 'Lieutenant Commander Data Next Generation Star Trek Universe Collection Playmates.',
   foto: seriadoDois,
   favorito: false,
-  preco: 3028.88,
+  preco: 328.88,
   id: uuid(),
   categoria: 'seriados'
 }, {
@@ -139,7 +139,7 @@ const initialState = [{
   descricao: 'Captain Jean-Luc Picard Next Generation Star Trek Universe Collection Playmates.',
   foto: seriadoTres,
   favorito: false,
-  preco: 2227.68,
+  preco: 227.68,
   id: uuid(),
   categoria: 'seriados'
 }, {
@@ -155,7 +155,7 @@ const initialState = [{
   descricao: 'Tomax Paoli 6 Classified Series G.I. Joe Figure Hasbro',
   foto: desenhoUm,
   favorito: false,
-  preco: 5359,
+  preco: 559,
   id: uuid(),
   categoria: 'desenho'
 }, {
@@ -163,7 +163,7 @@ const initialState = [{
   descricao: 'Dupla Penn e Teller Simpsons 25 of the Greatest Guest Stars Série 3 NECA',
   foto: desenhoDois,
   favorito: false,
-  preco: 4817.33,
+  preco: 417.33,
   id: uuid(),
   categoria: 'desenho'
 }, {
@@ -171,7 +171,7 @@ const initialState = [{
   descricao: 'Boneco Cão Bravio Mastim completo Comandos em Ação Gi Joe Estrela',
   foto: desenhoTres,
   favorito: false,
-  preco: 1199,
+  preco: 199,
   id: uuid(),
   categoria: 'desenho'
 }, {
