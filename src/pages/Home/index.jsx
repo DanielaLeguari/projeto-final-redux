@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import categorias from '../../json/categoria.json';
+import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -12,7 +12,9 @@ const linkStyle = {
   fontSize: '10px',
   cursor: 'pointer',
 }
+
 const Home = () => {
+  const categorias = useSelector(state => state.categorias);
   return (
     <>   
     <Header />
@@ -20,8 +22,8 @@ const Home = () => {
       <div className={styles.post}>
           {categorias.map((categoria) => {
         return <Link style={linkStyle}to={`/categoria/${categoria.id}`}>
-               <h1 className={styles.titulo}>{categoria.categoria}</h1>
-          <img className={styles.capa} src={categoria.imagemUrl} alt="categoria" height="100px" />
+               <h1 className={styles.titulo}>{categoria.nome}</h1>
+          <img className={styles.capa} src={categoria.thumbnail} alt="categoria" height="100px" />
         </Link>
       })}
       </div>
