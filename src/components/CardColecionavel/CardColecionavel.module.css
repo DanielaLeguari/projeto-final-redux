@@ -1,3 +1,21 @@
+.post{
+    text-align: center;
+    width: 282px;
+    height: 420px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding-bottom: 1.5rem;
+    transition: transform .2s;
+    background-color: #2a2827;
+    border: 1px solid var(--cor-texto-banner);
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.post:hover {
+    transform: translate(0, -2rem);
+}
+
+
 .item {
     border-radius: 10px;
     background-color: white;
@@ -10,13 +28,13 @@
     margin: 1rem;
     line-height: 1.5rem;
     justify-content: space-around;
-    border: 2px solid rgb(143, 140, 140);
 }
 
 .titulo {
     font-size: 18px;
     text-align: center;
     font-weight: 700;
+    font-style: italic;
 }
 
 .descricao {
@@ -26,6 +44,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    justify-content: space-evenly;
 }
 
 .containerPreco {
@@ -38,4 +57,9 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
+}
+
+.imagemItens{
+    width: 150px;
+    height: 180px;
 }
