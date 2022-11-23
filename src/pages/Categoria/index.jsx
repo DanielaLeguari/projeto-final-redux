@@ -1,26 +1,33 @@
 import CardColecionavel from '../../components/CardColecionavel';
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import colecionaveis from '../../json/colecionaveis.json';
-import categorias from '../../json/categoria.json';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import styles from './Categoria.module.css';
 import BannerCategoria from 'components/BannerCategoria';
+import { useSelector } from 'react-redux';
 
 const Categoria = () => {
     const { categoriaId } = useParams();
-    const categoriasFiltradas = categorias.filter(item => item.id === Number(categoriaId));
+    const { categoria, itens } = useSelector(state => {
+        const regexp = new RegExp(state.busca, 'i');
+        return {
+          categoria: state.categorias.find(categoria => categoria.id === categoriaId),
+          itens: state.itens.filter(item => item.categoria === categoriaId && item.titulo.match(regexp))
+        }
+      });
+
     return (
         <>
             <Header />
-            {categoriasFiltradas === undefined || categoriasFiltradas.length === 0 ?
+        
+            {categoria === undefined ?
                 <h1 className={styles.categoriaInvalida}>Categoria inválida</h1>
                 :
                 <>
-                    <BannerCategoria {...categoriasFiltradas[0]} />
+                    <BannerCategoria {...categoria} />
                     <div className={styles.posts}>
-                        {colecionaveis.filter(item => item.categoriaId === Number(categoriaId)).map(item => {
+                        {itens.map(item => {
                             return <CardColecionavel {...item} /> //espalhando direto
                         })}
                     </div>
