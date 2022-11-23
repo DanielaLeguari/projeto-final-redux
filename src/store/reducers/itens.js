@@ -23,7 +23,7 @@ import desenhoQuatro from 'assets/itens/desenho-4.png';
 
 
 const initialState = [{
-  titulo: 'Yuri Seijin Naoko-san & Misuzu',
+  titulo: 'anime Yuri Seijin Naoko-san & Misuzu',
   descricao: 'Yuri Seijin Naoko-san é um manga escrito e ilustrado pela autor de mangas chamado Kashmir.',
   foto: animeUm,
   favorito: false,

@@ -13,9 +13,9 @@ const Footer = () => {
         <AiFillTwitterCircle size={'2.8rem'} color={'white'} />
         <AiFillInstagram size={'2.8rem'} color={'white'} />
       </div>
-      <di>
-        <img className={styles.footerImg} src={logo}></img>
-      </di>
+      <div>
+        <img className={styles.footerImg} src={logo} alt=""></img>
+      </div>
       <div className={styles.copyright}>
         <AiOutlineCopyrightCircle size={'2.4rem'} color={'white'} />
         <p>Copyright</p>
