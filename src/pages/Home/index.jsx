@@ -19,6 +19,7 @@ const Home = () => {
     <>   
     <Header />
     <Banner />
+    <p className={styles.posttitulo}>ESCOLHA A SUA CATEGORIA</p>
       <div className={styles.post}>
           {categorias.map((categoria) => {
         return <Link style={linkStyle}to={`/categoria/${categoria.id}`}>

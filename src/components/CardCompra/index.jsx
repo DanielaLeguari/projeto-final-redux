@@ -1,6 +1,6 @@
 import styles from './CardCompra.module.css';
 import produto from '../../assets/anime-1.png';
-import { AiOutlineHeart, AiFillPlusCircle } from 'react-icons/ai';
+import { AiOutlineHeart,AiFillMinusCircle, AiFillPlusCircle  } from 'react-icons/ai';
 import { GrSubtractCircle } from 'react-icons/gr';
 
 const CardCompra = () => {
@@ -21,11 +21,16 @@ const CardCompra = () => {
              <p>R$: 900.00</p>   
             </div>
           <div className={styles.quantidade}>
-            <AiOutlineHeart />
-            <p>Quantidade:</p>
-            <AiFillPlusCircle />
+            <div className={styles.like}>
+                <AiOutlineHeart size={'1.5rem'}/> 
+            </div>
+            <p className={styles.quantidadeNome}>Quantidade:</p>
+            <div className={styles.quantidadeIcons}>
+                <AiFillMinusCircle size={'1.5rem'} />
             <p>1</p>
-            <GrSubtractCircle  />
+            <AiFillPlusCircle  size={'1.5rem'} />  
+            </div>
+          
           </div>
         </div>
             </div>

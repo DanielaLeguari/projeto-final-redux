@@ -6,6 +6,7 @@ const Banner = () => {
         <>
             <div className={styles.banner}>
                 <div className={styles.apresentacao}>
+                   
                     <h1>Colecionáveis</h1>
 
                     <p className={styles.paragrafo}>
@@ -13,10 +14,7 @@ const Banner = () => {
                     </p>
                     <hr />
                     <div></div>
-                    <img
-                        className={styles.categoriasTitle}
-                        src={categorias}
-                    />
+                
                 </div>
             </div>
         </>

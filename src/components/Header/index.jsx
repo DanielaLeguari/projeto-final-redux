@@ -11,6 +11,7 @@ const linkStyle = {
   color: 'white',
   fontSize: '20px',
   cursor: 'pointer',
+  fontWeight: '700',
 }
 
 const Header = () => {
