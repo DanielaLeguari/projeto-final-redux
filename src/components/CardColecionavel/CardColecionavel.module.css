@@ -1,6 +1,6 @@
 .post{
     text-align: center;
-    width: 282px;
+    width: 280px;
     height: 420px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
@@ -10,6 +10,7 @@
     border: 1px solid var(--cor-texto-banner);
     margin-bottom: 3rem;
     cursor: pointer;
+    margin: 0.2rem;
 }
 .post:hover {
     transform: translate(0, -2rem);

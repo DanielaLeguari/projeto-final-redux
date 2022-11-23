@@ -25,11 +25,12 @@ const CardColecionavel = ({ titulo, descricao, foto, favorito, preco, id, catego
             <div className={styles.containerPreco}>
               <p className={styles.valor}>R${preco}</p>
             </div>
-            {favorito ? <AiFillHeart color='red' onClick={resolverFavorito} size={'2rem'} />
+            {favorito ? <AiFillHeart color='#007ceb' onClick={resolverFavorito} size={'2rem'} />
               : <AiOutlineHeart size={'2rem'} color='white' onClick={resolverFavorito} />}
             <AiOutlineShoppingCart size={'2rem'} color='white'  />
           </div>
       </div>
+  
     </>
   );
 }
