@@ -64,7 +64,7 @@ const Categoria = () => {
                             </div>}
                     </>
                     : categoria === undefined ?
-                        <h1 className={styles.categoriaInvalida}>Categoria inválida</h1>
+                        <h1 className={styles.categoriaInvalida}>Categoria não encontrada!</h1>
                         :
                         <>
                             <BannerCategoria {...categoria} />

@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import { AiFillInstagram, AiFillTwitterCircle, AiOutlineCopyrightCircle } from 'react-icons/ai'
+import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
 import { FaFacebook } from 'react-icons/fa'
 import logo from '../../assets/funko-logo.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -14,11 +15,10 @@ const Footer = () => {
         <AiFillInstagram size={'2.8rem'} color={'white'} />
       </div>
       <div>
-        <img className={styles.footerImg} src={logo} alt=""></img>
+        <Link to={"/"}><img className={styles.footerImg} src={logo} alt=""></img></Link>
       </div>
       <div className={styles.copyright}>
-        <AiOutlineCopyrightCircle size={'2.4rem'} color={'white'} />
-        <p>Copyright</p>
+        <p>Desenvolvido por Daniela e Luiza</p>
       </div>
 
     </div>

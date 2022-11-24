@@ -3,10 +3,8 @@ import styles from './Header.module.css'
 import logo from '../../assets/funko-logo.png'
 import { Link } from 'react-router-dom';
 import Busca from '../Busca/index' 
-import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { RiShoppingCartFill, RiShoppingCart2Line} from 'react-icons/ri'
 import { useLocation, useNavigate } from 'react-router-dom';
-
 
 
 const iconeProps = {
@@ -28,10 +26,9 @@ const Header = () => {
   return (
     <div className={styles.containerHeader}>
     <div className={styles.nav}>
-         <img src={logo}></img>
+       <Link to='/'><img src={logo} alt="logo Funko"></img></Link>  
       <Link style={linkStyle} to="/">Página Inicial</Link>
     </div>
-    {/* buscaSlice */}
        <Busca onClick={() => navigate('/')}/>
        <Link to='/carrinho'>
        {location.pathname === '/carrinho'

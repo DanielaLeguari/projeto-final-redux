@@ -1,8 +1,10 @@
 .CardCompra {
- margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-.resumo {
+.carrinhoVazio {
+  text-align: center;
+  padding: 2rem;
 }
 
 .imgCard {
@@ -21,8 +23,6 @@
   text-align: center;
   display: flex;
   gap: 45%;
-  /* padding-right: 2%;
-  padding-left: 2%; */
   font-weight: 800;
 }
 
@@ -61,18 +61,18 @@
   width: 34%;
 }
 
-.quantidadeNome{
-margin-right: 5%;
+.quantidadeNome {
+  margin-right: 5%;
 }
 
-.like{
+.like {
   display: flex;
   width: 35%;
- margin-right: 5%;
+  margin-right: 5%;
 }
 
 
-.quantidadeIcons{
+.quantidadeIcons {
   width: 100%;
   display: flex;
   gap: 15%;

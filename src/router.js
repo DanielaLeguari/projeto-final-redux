@@ -7,6 +7,7 @@ import PaginaErro from 'pages/PaginaErro';
 import Carrinho from 'pages/Carrinho';
 import ResumoCompra from 'pages/ResumoCompra';
 
+
 export const Router = () => {
   return (
     <BrowserRouter>
