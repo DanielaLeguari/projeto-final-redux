@@ -30,13 +30,13 @@
 
 ### Estrutura do Projeto
 
-- Projeto é composto por:
+- O projeto é composto por:
 - Página Home;
 - Página Categorias;
-- Página Categia não encontrada;
+- Página Categoria não encontrada;
 - Página de Carrinho de compras;
-- Página de Erro;
 - Página de Resumo da compra
+- Página de Erro;
 
 
 ## Página Home
