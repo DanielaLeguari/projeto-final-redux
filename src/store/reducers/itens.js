@@ -23,7 +23,7 @@ import desenhoQuatro from 'assets/itens/desenho-4.png';
 
 
 const initialState = [{
-  titulo: 'anime Yuri Seijin Naoko-san & Misuzu',
+  titulo: 'anime Yuri & Seijin ',
   descricao: 'Yuri Seijin Naoko-san é um manga escrito e ilustrado pela autor de mangas chamado Kashmir.',
   foto: animeUm,
   favorito: false,
@@ -31,7 +31,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'animes'
 }, {
-  titulo: 'Yukio Okumura Ichiban Kuji B Ao no Blue Exorcist Banpresto',
+  titulo: 'Yukio Okumura ',
   descricao: 'Ao no Exorcist, também conhecido no ocidente como Blue Exorcist, é uma série de manga publicada desde 2009.',
   foto: animeDois,
   favorito: false,
@@ -39,7 +39,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'animes'
 },  {
-  titulo: 'Dragon Stars Series Dragon Ball Super Bandai',
+  titulo: 'Dragon Ball Super',
   descricao: 'Dragon Ball é possivelmente o anime mais conhecido de todos os tempos, uma criação de Akira Toriyama que começou com um mangá.',
   foto: animeTres,
   favorito: false,
@@ -47,7 +47,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'animes'
 }, {
-  titulo: 'Shoto Todoroki DXF Boku',
+  titulo: 'Shoto Todo',
   descricao: 'Em um mundo onde quase toda a população possui algum poder sobre-humano, o garoto Izuku Midoriya é um dos poucos casos de pessoas comuns.',
   foto: animeQuadro,
   favorito: false,
@@ -55,7 +55,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'animes'
 },  {
-  titulo: 'Boneco Articulado Leatherface Ultimate Figure',
+  titulo: 'Leatherface Ultimate',
   descricao: 'Boneco Articulado Leatherface Ultimate Figure - O Massacre da Serra Elétrica - Texas Chainsaw Massacre - NECA.',
   foto: filmeUm,
   favorito: false,
@@ -63,7 +63,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'filmes'
 }, {
-  titulo: 'Boneco Articulado Alien Warrior 1986',
+  titulo: 'Alien Warrior 1986',
   descricao: 'Boneco Articulado Alien Warrior 1986 Blue Ultimate - NECA',
   foto: filmeDois,
   favorito: false,
@@ -71,7 +71,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'filmes'
 }, {
-  titulo: 'Jessica Rabbit Reaction Figures Wave 1 ',
+  titulo: 'Jessica Rabbit',
   descricao: 'Jessica Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7',
   foto: filmeTres,
   favorito: false,
@@ -79,7 +79,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'filmes'
 }, {
-  titulo: 'Roger Rabbit Reaction Figures Wave 1',
+  titulo: 'Roger Rabbit ',
   descricao: 'Roger Rabbit Reaction Figures Wave 1 - Uma Cilada para Roger Rabbit - Who Framed Roger Rabbit - Super7.',
   foto: filmeQuadro,
   favorito: false,
@@ -87,7 +87,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'filmes'
 }, {
-  titulo: 'Boneco Articulado Man-Bat Megafis DC Rebirth',
+  titulo: 'Man-Bat DC ',
   descricao: 'Boneco Articulado Man-Bat Megafis DC Rebirth - DC Multiverse - Mcfarlane Toys',
   foto: heroisUm,
   favorito: false,
@@ -95,7 +95,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'super herois'
 }, {
-  titulo: 'Boneco Articulado Batman Arkham City',
+  titulo: 'Batman Arkham City',
   descricao: 'Boneco Articulado Batman Arkham City - DC Multiverse - Mcfarlane Toys ',
   foto: heroisDois,
   favorito: false,
@@ -103,7 +103,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'super herois'
 }, {
-  titulo: 'Eternal Clan Dragon Series 8 Mcfarlane Toys',
+  titulo: 'Eternal Clan Dragon',
   descricao: 'Eternal Clan Dragon Series 8 Mcfarlane Toys',
   foto: heroisTres,
   favorito: false,
@@ -119,15 +119,15 @@ const initialState = [{
   id: uuid(),
   categoria: 'super herois'
 },  {
-  titulo: 'Shane Walsh',
-  descricao: 'Shane Walsh TV Series Série 2 Walking Dead Mcfarlan',
+  titulo: 'Zombie Walker',
+  descricao: 'Shane Walsh after becoming zombie, TV Series Série 2 Walking Dead Mcfarlan',
   foto: seriadoUm,
   favorito: false,
   preco: 285.56,
   id: uuid(),
   categoria: 'seriados'
 }, {
-  titulo: 'Lieutenant Commander Data Next Generation Star Trek Universe Collection Playmates',
+  titulo: 'Lieutenant Commander',
   descricao: 'Lieutenant Commander Data Next Generation Star Trek Universe Collection Playmates.',
   foto: seriadoDois,
   favorito: false,
@@ -135,7 +135,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'seriados'
 }, {
-  titulo: 'Captain Jean-Luc Picard Next Generation Star Trek Universe Collection Playmates',
+  titulo: 'Captain Jean-Luc Picard',
   descricao: 'Captain Jean-Luc Picard Next Generation Star Trek Universe Collection Playmates.',
   foto: seriadoTres,
   favorito: false,
@@ -143,7 +143,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'seriados'
 }, {
-  titulo: 'Khan The Wrath of Khan Star Trek Universe Collection Playmates',
+  titulo: 'Khan The Wrath',
   descricao: 'Khan The Wrath of Khan Star Trek Universe Collection Playmates',
   foto: seriadoQuatro,
   favorito: false,
@@ -151,7 +151,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'seriados'
 },  {
-  titulo: 'Tomax Paoli 6 Classified Series G.I. Joe Figure Hasbro',
+  titulo: 'Tomax Paoli 6',
   descricao: 'Tomax Paoli 6 Classified Series G.I. Joe Figure Hasbro',
   foto: desenhoUm,
   favorito: false,
@@ -159,7 +159,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Dupla Penn e Teller Simpsons 25',
+  titulo: 'Dupla Penn e Teller Simpsons ',
   descricao: 'Dupla Penn e Teller Simpsons 25 of the Greatest Guest Stars Série 3 NECA',
   foto: desenhoDois,
   favorito: false,
@@ -167,7 +167,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Boneco Cão Bravio Mastim',
+  titulo: 'Cão Bravio Mastim',
   descricao: 'Boneco Cão Bravio Mastim completo Comandos em Ação Gi Joe Estrela',
   foto: desenhoTres,
   favorito: false,
@@ -175,7 +175,7 @@ const initialState = [{
   id: uuid(),
   categoria: 'desenho'
 }, {
-  titulo: 'Boneco Cobra Contrabando de Armas Fora-da-Lei',
+  titulo: 'Boneco Cobra',
   descricao: 'Boneco Cobra Contrabando de Armas Fora-da-Lei Destro completo Comandos em Ação Gi Joe Estrela',
   foto: desenhoQuatro,
   favorito: false,
