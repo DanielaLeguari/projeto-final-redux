@@ -25,7 +25,7 @@ const iconeProps = {
 
 const quantidadeProps = {
   size: 32,
-  color: '	#4682B4'
+  color: '	#007ceb'
 }
 
 const CardColecionavel = ({

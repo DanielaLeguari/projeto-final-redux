@@ -6,6 +6,7 @@ import Categoria from './pages/Categoria';
 import PaginaErro from 'pages/PaginaErro';
 import Carrinho from 'pages/Carrinho';
 
+
 export const Router = () => {
   return (
     <BrowserRouter>
