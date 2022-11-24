@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Categoria from './pages/Categoria';
 import PaginaErro from 'pages/PaginaErro';
 import Carrinho from 'pages/Carrinho';
+import ResumoCompra from 'pages/ResumoCompra';
 
 export const Router = () => {
   return (
@@ -13,6 +14,7 @@ export const Router = () => {
          <Route path='/' element={<Home />} />
         <Route path='/categoria/:nomeCategoria' element={<Categoria />} />
         <Route path='/carrinho' element={<Carrinho />} />
+        <Route path='/resumoCompra' element={<ResumoCompra />} />
         <Route path="*" element={<PaginaErro/>} />
       </Routes>
     </BrowserRouter>
