@@ -19,7 +19,7 @@ const Home = () => {
 
   const [buscar, setBuscar] = useState(undefined);
   const { categorias, itens } = useSelector(state => {
-    const regexp = new RegExp(state.busca, 'i');
+  const regexp = new RegExp(state.busca, 'i');
 
     if (state.busca !== buscar) {
       setBuscar(state.busca);
@@ -32,13 +32,13 @@ const Home = () => {
   return (
     <>
       <Header />
-      
+
       {buscar ?
         <>
           <p className={styles.posttitulo}>CATEGORIAS ENCONTRADAS</p>
-          { categorias?.length === 0  
-          ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p> 
-          :
+          {categorias?.length === 0
+            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+            :
             <div className={styles.post}>
               {categorias.map((categoria) => {
                 return <Link key={categoria.id} style={linkStyle} to={`/categoria/${categoria.id}`}>
@@ -47,20 +47,20 @@ const Home = () => {
                 </Link>
               })}
             </div>
-            }
+          }
           <p className={styles.posttitulo}>COLECIONÁVEIS ENCONTRADOS</p>
-          { itens?.length === 0 
-          ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p> 
-          :
-          <div className={styles.categoria}>
-            <div className={styles.posts}>
-              {itens?.map(item => (
-                <CardColecionavel key={item.id} {...item} />
-              ))}
-            </div>
-          </div>}
+          {itens?.length === 0
+            ? <p className={styles.posttitulo}>Nenhum resultado encontrado!</p>
+            :
+            <div className={styles.categoria}>
+              <div className={styles.posts}>
+                {itens?.map(item => (
+                  <CardColecionavel key={item.id} {...item} />
+                ))}
+              </div>
+            </div>}
         </> : <>
-        <Banner />
+          <Banner />
           <p className={styles.posttitulo}>ESCOLHA A SUA CATEGORIA</p>
           <div className={styles.post}>
             {categorias.map((categoria) => {

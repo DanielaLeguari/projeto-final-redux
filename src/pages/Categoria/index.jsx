@@ -8,6 +8,7 @@ import BannerCategoria from 'components/BannerCategoria';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 const linkStyle = {
     textDecoration: "none",
     color: 'black',

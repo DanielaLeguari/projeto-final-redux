@@ -15,6 +15,7 @@ const carrinhoSlice = createSlice({
           quantidade: 1
         }
       ];
+      console.log(payload);
       return state.filter(item => item.id !== payload);
     },
     mudarQuantidade: (state, { payload }) => {
