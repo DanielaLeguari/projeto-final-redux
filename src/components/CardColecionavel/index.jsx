@@ -89,12 +89,12 @@ const CardColecionavel = ({
             )
             : (!estaNoCarrinho ? <FaCartPlus
               {...iconeProps}
-              color="#a0ff91FF"
+              color=" #007ceb"
               className={styles['item-acao']}
               onClick={resolverCarrinho}
             /> : <BsCartDashFill
               {...iconeProps}
-              color={'#f1b0b0'}
+              color={'#a0ff91FF'}
               className={styles['item-acao']}
               onClick={resolverCarrinho}
             />)

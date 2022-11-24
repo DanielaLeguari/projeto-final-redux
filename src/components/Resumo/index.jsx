@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import itens from "store/reducers/itens";
+import { useSelector } from "react-redux";
 import styles from "./Resumo.module.css";
 
 const Resumo = () => {
@@ -45,8 +43,8 @@ const Resumo = () => {
         </div>
       </div>
       <div className={styles.barraResumo}>
-        <p>
-          Subtotal: <strong> R$ {total.toFixed(2)} </strong>
+        <p className={styles.subtotal}>
+          Subtotal: <strong> R${total.toFixed(2)} </strong>
         </p>
       </div>
     </>

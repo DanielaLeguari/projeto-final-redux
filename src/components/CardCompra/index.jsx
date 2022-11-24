@@ -33,7 +33,7 @@ const CardCompra = () => {
                             carrinho.map(item => <CardColecionavel key={item.id} {...item} carrinho />)}
                     </div>
                     <div className={styles.barraResumo}>
-                        <p>Ver carrinho de Compras:</p>
+                        {/* <p>Ver carrinho de Compras:</p> */}
                         <p>Subtotal: <strong> R$ {total.toFixed(2)} </strong></p>
                     </div>
                     <Link to='/resumoCompra'>

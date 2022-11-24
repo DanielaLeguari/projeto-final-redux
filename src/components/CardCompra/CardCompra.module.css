@@ -27,22 +27,21 @@
 }
 
 .barraResumo {
-  width: 50%;
+  width: 35%;
   margin-top: 2%;
-  margin-left: 33%;
-  border-radius: 20px;
+  margin-left: 55%;
+  border-radius: 10px;
   background-color: #2a292f;
   display: flex;
-  gap: 10%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: white;
   font-weight: 800;
   justify-content: space-around;
 }
 
 .finalizaCompra {
-  margin-left: 68%;
+  margin-left: 77%;
   background-color: #007ceb;
   border: none;
   margin-top: 1%;

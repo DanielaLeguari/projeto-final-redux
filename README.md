@@ -28,8 +28,11 @@
 - Projeto é composto por:
 - Página Home;
 - Página Categorias;
+- Página Categia não encontrada;
 - Página de Carrinho de compras;
-- Página de Erro.
+- Página de Erro;
+- Página de Resumo da compra
+
 
 ## Página Home
 
@@ -37,16 +40,37 @@
 ![](./imagens/pagina-home.png)
 
 
+## Funcionalidade pesquisa geral (por categoria e item)
+
+![](./imagens/filtro-categoria-encontrada.png)
+
 ## Página Categorias
 
 
 ![](./imagens/pagina-categoria.png)
 
 
+## Página Categoria não encontrada
+
+
+![](./imagens/categoria-nao-encontrada.png)
+
 ## Página Carrinho de Compras
 
 
 ![](./imagens/pagina-carrinho.png)
+
+
+## Página Carrinho de vazio
+
+
+![](./imagens/carrinho-vazio.png)
+
+
+## Página Resumo da compra
+
+
+![](./imagens/resumo.png)
 
 
 ## Página de Erro
