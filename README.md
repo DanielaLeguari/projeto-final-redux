@@ -10,6 +10,12 @@
 - Luiza Dara Valentini
 
 
+📌Caso queira conferir nossa aplicação você pode acessar o link abaixo:
+
+
+- https://projeto-final-redux.vercel.app/
+
+
 📌 Comandos para rodar o projeto após clonar o repositório em sua máquina:
 
 ### `npm install`
